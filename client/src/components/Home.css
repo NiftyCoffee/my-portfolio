@@ -1,0 +1,41 @@
+#home {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.home-pretitle {
+    margin: 0;
+    display: inline-block;
+}
+
+#home p {
+    font-size: 1.5rem;
+    max-width: 45%;
+    margin-top: 1rem;
+}
+
+@media (max-width: 400px) {
+    #home p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 800px) {
+    #home h1 {
+        font-size: 5rem;
+    }
+
+    #home p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+    #home {
+        max-width: 100%;
+    }
+}

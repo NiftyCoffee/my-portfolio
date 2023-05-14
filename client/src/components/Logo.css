@@ -1,0 +1,46 @@
+.logo {
+    position: fixed;
+    top: 1rem;
+    left: 3rem;
+    z-index: 10;
+}
+
+/* .logo span {
+    font-size: 2.5rem;
+    z-index: 10;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+} */
+
+.logo div {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo div span {
+    position: relative;
+}
+
+.logo div.hidden {
+    border: 1px solid black;
+    color: #e2dcdc;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease-in-out;
+    background-color: #e2dcdc;
+}
+
+.logo div.visible {
+    z-index: 2;
+}
+
+.logo a:hover div.hidden {
+    transform: rotate(90deg);
+}
