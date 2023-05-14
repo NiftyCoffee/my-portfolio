@@ -148,6 +148,7 @@
 
     .project-card {
         width: 12rem;
+        max-height: 70%;
     }
 
     .project-title {
