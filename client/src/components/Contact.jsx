@@ -16,7 +16,7 @@ const Contact = () => {
             duration: 600,
             distance: '2rem',
             origin: 'left',
-            reset: true,
+            reset: false,
         });
 
         sr.reveal('.contact-pretitle', {
@@ -24,7 +24,7 @@ const Contact = () => {
             duration: 800,
             distance: '2rem',
             origin: 'bottom',
-            reset: true,
+            reset: false,
         });
 
         sr.reveal('.contact-message', {
@@ -32,7 +32,7 @@ const Contact = () => {
             duration: 800,
             distance: '2rem',
             origin: 'bottom',
-            reset: true,
+            reset: false,
         });
 
         sr.reveal('.email-btn-container', {
@@ -40,7 +40,7 @@ const Contact = () => {
             duration: 800,
             distance: '2rem',
             origin: 'bottom',
-            reset: true,
+            reset: false,
         });
 
         sr.reveal('.github-link', {
@@ -48,7 +48,7 @@ const Contact = () => {
             duration: 600,
             distance: '3rem',
             origin: 'top',
-            reset: true,
+            reset: false,
             easing: 'ease-in-out',
         });
 
@@ -57,7 +57,7 @@ const Contact = () => {
             duration: 600,
             distance: '3rem',
             origin: 'top',
-            reset: true,
+            reset: false,
             easing: 'ease-in-out',
         });
 
@@ -66,7 +66,7 @@ const Contact = () => {
             duration: 600,
             distance: '3rem',
             origin: 'top',
-            reset: true,
+            reset: false,
             
         });
 

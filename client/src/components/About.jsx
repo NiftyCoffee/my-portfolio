@@ -10,7 +10,7 @@ const About = () => {
         const sr = ScrollReveal({ viewFactor: 0 });
 
         sr.reveal(".row-one", {
-            reset: true,
+            reset: false,
             delay: 100,
             duration: 400,
             origin: 'right',
@@ -19,7 +19,7 @@ const About = () => {
         });
 
         sr.reveal(".right", {
-            reset: true,
+            reset: false,
             delay: 100,
             duration: 400,
             origin: 'left',
@@ -28,7 +28,7 @@ const About = () => {
         });
 
         sr.reveal(".left", {
-            reset: true,
+            reset: false,
             delay: 200,
             duration: 800,
             rotate: {
@@ -39,7 +39,7 @@ const About = () => {
         });
 
         sr.reveal(".img-border", {
-            reset: true,
+            reset: false,
             delay: 200,
             duration: 1000,
             rotate: {

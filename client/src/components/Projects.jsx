@@ -14,7 +14,7 @@ const Projects = () => {
             distance: '7rem',
             origin: 'top',
             duration: 500,
-            reset: true,
+            reset: false,
             easing: 'ease-in-out',
             viewFactor: 0.2,
         });
@@ -24,7 +24,7 @@ const Projects = () => {
             distance: '7rem',
             origin: 'top',
             duration: 500,
-            reset: true,
+            reset: false,
             easing: 'ease-in-out',
             viewFactor: 0.2,
         });
@@ -34,7 +34,7 @@ const Projects = () => {
             distance: '7rem',
             origin: 'top',
             duration: 500,
-            reset: true,
+            reset: false,
             easing: 'ease-in-out',
             viewFactor: 0.2,
         });
@@ -44,7 +44,7 @@ const Projects = () => {
             distance: '3rem',
             origin: 'left',
             duration: 200,
-            reset: true,
+            reset: false,
             easing: 'ease-in-out',
             viewFactor: 0.2,
         });
@@ -54,7 +54,7 @@ const Projects = () => {
             distance: '3rem',
             origin: 'left',
             duration: 200,
-            reset: true,
+            reset: false,
             easing: 'ease-in-out',
             viewFactor: 0.2,
         });
