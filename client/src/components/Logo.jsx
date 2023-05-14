@@ -10,7 +10,7 @@ const Logo = () => {
             distance: '9rem',
             duration: 300,
             origin: 'top',
-            delay: 2200,
+            delay: 2000,
             easing: 'ease-out',
             reset: false,
             viewFactor: 0.0,

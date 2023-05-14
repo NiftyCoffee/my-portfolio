@@ -28,7 +28,7 @@ function Home() {
             origin: 'left',
             reset: false,
             viewFactor: 0,
-            delay: 3000,
+            delay: 1800,
         });
 
         // Add typed instance
