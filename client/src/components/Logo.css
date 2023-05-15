@@ -30,11 +30,11 @@
 }
 
 .logo div.hidden {
-    border: 1px solid black;
-    color: #e2dcdc;
+    border: 1px solid var(--logo-color);
+    color: var(--background-color);
     transform: rotate(45deg);
     transition: transform 0.3s ease-in-out;
-    background-color: #e2dcdc;
+    background-color: var(--background-color);
 }
 
 .logo div.visible {

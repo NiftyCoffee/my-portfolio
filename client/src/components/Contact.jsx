@@ -1,11 +1,42 @@
 import './Contact.css';
-import github_icon from '../assets/github-icon.svg';
-import instagram_icon from '../assets/instagram-icon.svg';
-import linkedin_icon from '../assets/linkedin-icon.svg';
+import github_dark_icon from '../assets/github-icon.svg';
+import instagram_dark_icon from '../assets/instagram-icon.svg';
+import linkedin_dark_icon from '../assets/linkedin-icon.svg';
+import github_light_icon from '../assets/github-light-icon.svg';
+import instagram_light_icon from '../assets/instagram-light-icon.svg';
+import linkedin_light_icon from '../assets/linkedin-light-icon.svg';
 import ScrollReveal from 'scrollreveal';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
-const Contact = () => {
+const Contact = ({currTheme}) => {
+
+    const [githubIcon, setGithubIcon] = useState(github_dark_icon);
+    const [instagramIcon, setInstagramIcon] = useState(instagram_dark_icon);
+    const [linkedinIcon, setLinkedinIcon] = useState(linkedin_dark_icon);
+
+    const getGithubIcon = () => {
+        if (currTheme === 'light') {
+            return github_dark_icon;
+        } else {
+            return github_light_icon;
+        }
+    };
+
+    const getInstagramIcon = () => {
+        if (currTheme === 'light') {
+            return instagram_dark_icon;
+        } else {
+            return instagram_light_icon;
+        }
+    };
+
+    const getLinkedinIcon = () => {
+        if (currTheme === 'light') {
+            return linkedin_dark_icon;
+        } else {
+            return linkedin_light_icon;
+        }
+    };
 
     useEffect(() => {
 
@@ -80,13 +111,13 @@ const Contact = () => {
                     <h2 className="contact-header main-font">Contact</h2>
                     <div className="socials">
                         <a className="github-link" href="https://github.com/NiftyCoffee" target="_blank">
-                            <img className="github-icon" src={github_icon} alt="" />
+                            <img className="github-icon" src={getGithubIcon()} alt="" />
                         </a>
                         <a className="instagram-link" href="https://instagram.com/zoelilitay" target="_blank">
-                            <img className="instagram-icon" src={instagram_icon} alt="" />
+                            <img className="instagram-icon" src={getInstagramIcon()} alt="" />
                         </a>
                         <a className="linkedin-link" href="https://www.linkedin.com/in/zoe-tay-209455235/" target="_blank">
-                            <img className="linkedin-icon" src={linkedin_icon} alt="" />
+                            <img className="linkedin-icon" src={getLinkedinIcon()} alt="" />
                         </a>
                     </div>
                     <p className="contact-message">Feel free to shoot me an email for any enquiries, or even just a chat!</p>

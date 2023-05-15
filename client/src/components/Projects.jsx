@@ -1,9 +1,20 @@
 import './Projects.css';
-import arrow_icon from '../assets/arrow.svg';
+import arrow_icon_dark from '../assets/arrow.svg';
+import arrow_icon_light from '../assets/arrow-light.svg';
 import ScrollReveal from 'scrollreveal';
-import { useEffect } from 'react';
+import { useEffect,useState } from 'react';
 
-const Projects = () => {
+const Projects = ({currTheme}) => {
+
+    const [icon, setIcon] = useState(arrow_icon_dark);
+
+    const getIcon = () => {
+        if(currTheme === 'light') {
+            return arrow_icon_dark;
+        } else {
+            return arrow_icon_light;
+        }
+    };
 
     useEffect(() => {
 
@@ -102,7 +113,7 @@ const Projects = () => {
                         <button className="resume-btn">
                             <a href="https://drive.google.com/file/d/1p1qYHbDOktFQiwAzW9uvfqEiFiw7rn9V/view?usp=sharing" target="_blank">View Resume</a>
                         </button>
-                        <img className="arrow-icon" src={arrow_icon} alt="" />
+                        <img className="arrow-icon" src={getIcon()} alt="" />
                     </div>
                 </div>
             </div>

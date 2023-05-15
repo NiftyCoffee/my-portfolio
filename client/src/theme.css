@@ -1,0 +1,35 @@
+:root {
+    --background-color: #e2dcdc;
+    --text-color: #000;
+    --heading-color: #000;
+    --scroll-color: #000;
+    --logo-color: #000;
+    --img-border-color: #fff;
+    --shadow-color: #000;
+    --project-text-color: #fff;
+    --project-card-color: #545454;
+    --project-card-hover-color: #272727;
+    --project-button-color: #fff;
+    --resume-button-color: #272727;
+    --email-button-color: #000;
+    --footer-background-color: #272727;
+    --footer-text-color: #fff;
+}
+
+:root[data-theme="dark"] {
+    --background-color: #272727;
+    --text-color: #cac9c9;
+    --heading-color: #fff;
+    --scroll-color: #fff;
+    --logo-color: #e2dcdc;
+    --img-border-color: #e2dcdc;
+    --shadow-color: #e2dcdc;
+    --project-text-color: #000;
+    --project-card-color: #cac9c9;
+    --project-card-hover-color: #e2dcdc;
+    --project-button-color: #000;
+    --resume-button-color: #e2dcdc;
+    --email-button-color: #fff;
+    --footer-background-color: #cac9c9;
+    --footer-text-color: #000;
+}

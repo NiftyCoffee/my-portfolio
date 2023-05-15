@@ -1,6 +1,6 @@
 #footer {
     height: 6vh;
-    background-color: #272727;
+    background-color: var(--footer-background-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,5 +9,5 @@
 
 .footer-text {
     font-size: 0.8rem;
-    color: #fff;
+    color: var(--footer-text-color);
 }

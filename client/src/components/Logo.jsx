@@ -1,8 +1,11 @@
 import './Logo.css';
 import ScrollReveal from 'scrollreveal';
-import { useEffect } from 'react';
+import { useContext, useEffect } from 'react';
+import { ThemeContext } from '../ThemeContext';
 
 const Logo = () => {
+
+    const { theme } = useContext(ThemeContext);
 
     useEffect (() => {
         const sr = ScrollReveal({opacity: 1});
@@ -19,7 +22,7 @@ const Logo = () => {
 
     return (
         <>
-            <div className="logo">
+            <div className={`logo ${theme}`}>
                 {/* <img className="border" src={border} alt=""/> */}
                 <a href="#home">
                     <div className="hidden"><span className="main-font hidden">Z</span></div>

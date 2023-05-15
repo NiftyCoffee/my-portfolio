@@ -34,6 +34,7 @@
 .contact-header {
     font-size: 4rem;
     margin: 0;
+    color: var(--heading-color);
 }
 
 .contact-message {
@@ -54,9 +55,9 @@
 
 .email-btn {
     text-transform: uppercase;
-    border: 1px solid #000;
-    background-color: #e2dcdc;
-    color: #000;
+    border: 1px solid var(--email-button-color);
+    background-color: var(--background-color);
+    color: var(--email-button-color);
     font-family: 'Space Mono', 'Monospace', 'Courier New';
     font-size: 1.2rem;
     z-index: 2;
@@ -64,7 +65,7 @@
 }
 
 .email-btn-shadow {
-    background-color: #000;
+    background-color: var(--email-button-color);
     z-index: 1;
 }
 

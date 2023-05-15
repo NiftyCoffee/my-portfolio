@@ -1,0 +1,23 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dark-mode-icon {
+    width: 2.8rem;
+    height: 2.8rem;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    z-index:2;
+}
+
+
+.dark-mode-icon {
+    transition: transform 0.3s ease-in-out;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
