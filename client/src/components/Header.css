@@ -7,15 +7,17 @@
 .dark-mode-icon {
     width: 2.8rem;
     height: 2.8rem;
-    position: absolute;
+    position: fixed;
     right: 2rem;
     top: 2rem;
     z-index:2;
+    transition: transform 0.3s ease-in-out;
+    background: var(--background-color);
+    border-radius: 5rem;
 }
 
-
-.dark-mode-icon {
-    transition: transform 0.3s ease-in-out;
+.dark-mode-icon:hover {
+    cursor: pointer;
 }
 
 .rotate {

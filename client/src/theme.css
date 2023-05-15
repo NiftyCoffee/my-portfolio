@@ -19,7 +19,7 @@
 :root[data-theme="dark"] {
     --background-color: #272727;
     --text-color: #cac9c9;
-    --heading-color: #fff;
+    --heading-color: #e2dcdc;
     --scroll-color: #fff;
     --logo-color: #e2dcdc;
     --img-border-color: #e2dcdc;
@@ -29,7 +29,7 @@
     --project-card-hover-color: #e2dcdc;
     --project-button-color: #000;
     --resume-button-color: #e2dcdc;
-    --email-button-color: #fff;
+    --email-button-color: #cac9c9;
     --footer-background-color: #cac9c9;
     --footer-text-color: #000;
 }
