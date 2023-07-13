@@ -111,7 +111,7 @@ const Projects = ({currTheme}) => {
                     </ul>
                     <div className="resume-btn-container">
                         <button className="resume-btn">
-                            <a href="https://drive.google.com/file/d/1WoIjoplo4cZSqSCADXpV7pj8axktTXvS/view?usp=sharing" target="_blank">View Resume</a>
+                            <a href="https://drive.google.com/file/d/1JCAVeeYF_f1IPqEYilmLriYSQvK0vzkI/view?usp=sharing" target="_blank">View Resume</a>
                         </button>
                         <img className="arrow-icon" src={getIcon()} alt="" />
                     </div>
