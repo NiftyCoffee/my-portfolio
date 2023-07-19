@@ -24,7 +24,7 @@
 }
 
 .socials img:hover {
-    transform: translateY(-0.5rem);
+    transform: translateY(-0.35rem);
 }
 
 .contact-pretitle {
